@@ -12,7 +12,7 @@ int main (void) {
 	//catch inital zero case
 	if (num == 0) {
 		
-		printf("zero");
+		printf("zero \n");
 		return 0;
 		
 	}
