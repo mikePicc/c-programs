@@ -1,5 +1,25 @@
 // converts user input integer into that same number but in written english 
 
+
+/*
+ONE VERY IMPORTANT THING TO NOTE:
+
+	this is NOT a correct solution.
+ 	I just wanted to keep this folly logic here, as a reminder.
+
+  	the idea was to reverse the number, then print the english versionof that number by taking the right most digit first instead of the leftmost digit
+
+    	THE PROBLEM WITH THIS:
+     		zero cases. 
+
+       		if you enter 790, it'll print 'seven nine' and not zero 
+	 	this is becuase of the mathematics. becuase of my math logic, zero is never caught 
+
+
+   	SOLUTION IN NEXT FILE: have to use the divisor method to get the rightmost digit
+
+*/
+
 #include <stdio.h>
 int main (void) {
 
